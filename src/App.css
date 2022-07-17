@@ -1,0 +1,101 @@
+nav{
+  direction:rtl ;
+}
+
+.dropdown-menu {
+  /*  position: absolute; */
+  /* top: 100%; */
+  right: 0;
+  left: auto;
+  /* z-index: 1000; */
+  /* display: flex; */
+
+  /* min-width: 200px;
+  padding: 0px 0;
+  margin: 0px 0 0;
+  font-size: 14px;
+  list-style: none;
+  background-clip: padding-box;
+  border: 0px solid #fff;
+  border: 0px solid rgba(0, 0, 0, .15);
+  border-radius: 0px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  /* text-transform: uppercase; */
+  /* font-family: 'Arimo',Arial, Helvetica, sans-serif;  */
+}
+
+.dropdown-item{
+  background-color: lightseagreen;
+}
+
+.logo{
+  position: sticky;
+  align-items: flex-start;
+  display: flex;
+  
+  /* padding-top: 0;
+  margin-top: 0; */
+
+}
+
+/* button{
+  background-color: #fec830;
+  
+} */
+body{
+  background-color: #fec830;
+}
+
+main{
+  /* background-color: rgb(30, 123, 104); */
+  background-color: peru;
+  margin : 0 ;
+}
+aside{
+  background-color: rgb(30, 123, 104);
+}
+
+#about{
+  background-image: url("/teva_ba'ir.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+h1{
+  color: rgb(30, 123, 104);
+}
+
+nav{
+  align-items: center;
+}
+
+
+h6{
+  font-size: 5px;
+}
+
+textarea{
+  height: 200px;
+}
+
+#nav_head{
+  ruby-align: start;
+  flex-direction: row;
+}
+.btn-close{
+  position: relative;
+}
+
+.foo{
+font-size: xx-small;
+}
+
+.rounded-4 {
+  border-radius: 15px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+}
